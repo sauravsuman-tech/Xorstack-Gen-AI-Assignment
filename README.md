@@ -12,13 +12,13 @@
     venv\Scripts\activate      # Windows
     pip install -r requirements.txt
 
-3.Add your Google API key in .env
+3. Add your Google API key in .env
     GOOGLE_API_KEY=your_google_api_key
 
-4.Run the FastAPI server
+4. Run the FastAPI server
     uvicorn main:app --reload
 
-5.Test the API
+5. Test the API
     Open http://127.0.0.1:8000/docs in your browser to access the API documentation and test the API.
 
 
@@ -38,6 +38,7 @@
     {"name": "Charlie", "date": "2024-02-15", "location": "Bangalore"}
   ]
 }
+
 
 
 ## Output is also saved in output_files/output_data.csv.
