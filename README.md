@@ -7,18 +7,22 @@
    cd xorstack-genai-assignment
 
 2. Create virtual environment and install dependencies
+   ```bash
     python -m venv venv
     source venv/bin/activate   # Mac/Linux
     venv\Scripts\activate      # Windows
     pip install -r requirements.txt
 
-3. Add your Google API key in .env
+4. Add your Google API key in .env
+   ```bash
     GOOGLE_API_KEY=your_google_api_key
 
-4. Run the FastAPI server
-    uvicorn main:app --reload
+6. Run the FastAPI server
+   ```bash
+   uvicorn main:app --reload
 
-5. Test the API
+8. Test the API
+   ```bash
     Open http://127.0.0.1:8000/docs in your browser to access the API documentation and test the API.
 
 
@@ -42,3 +46,4 @@
 
 
 ## Output is also saved in output_files/output_data.csv.
+
