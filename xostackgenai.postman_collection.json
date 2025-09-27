@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "556d4278-641d-4d6f-a9c2-1879bd0accc1",
+		"name": "xostackgenai",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40483899"
+	},
+	"item": [
+		{
+			"name": "procees_file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/Xorstack-genai-assignment/example.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/process-file/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"process-file",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
